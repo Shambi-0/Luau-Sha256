@@ -211,7 +211,7 @@ return function(Content : string, Salt : string?) : string
 	local Hash : {[number] : string?} = {};
 	
 	-- Iterate over each chunk in the "base hash".
-	for Index : number, Value : number in ipairs(Hash) do
+	for Index : number, Value : number in ipairs(Base) do
 		
 		-- Convert the chunk into a string, the overwrite the current value.
 		Hash[Index] = ProcessNumber(Value, 4);
