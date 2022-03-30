@@ -31,5 +31,7 @@ local Hash : string = Sha256(Message, Salt); -- Create our salted hash.
 
 print(Hash); -- cb73cee5064dd1c344c661c5a739fde92a5a4a7ed27d45d05aa5edef2250481e
 ```
+adding a **salt** makes reverse engineering hashes far more difficult, since it changes the original input
+so even if you had a database of hashes and inputs to compare to, it wouldn't match up since the inputs don't include the salt.
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
