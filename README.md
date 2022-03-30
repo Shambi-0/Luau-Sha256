@@ -2,6 +2,8 @@
 
 A Open-Source Module which allows you to efficiently create sha256 hashes with ease.
 
+Sha256 is a commonly used "one-way hash function", notably used in varies cryptocurrency, crypto-systems, as well as account/password verification.
+
 ## Installation
 
 In ROBLOX Studio, you may load it in as a module script named `Sha256`, with the following :
